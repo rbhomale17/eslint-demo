@@ -9,14 +9,3 @@ function str3 (str) {
 }
 
 str3("jkahdkah")
-
-const express = require("express")
-const app = express()
-
-app.get("/", (req, res) => {
-  res.send("hello")
-})
-
-app.listen(3000, () => {
-  console.log("listening on port 3000")
-})
