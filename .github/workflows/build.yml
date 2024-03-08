@@ -1,7 +1,7 @@
 on : push
 jobs: 
   first-job:
-    runs-on: windows-latest, ubuntu-latest, macos-latest
+    runs-on: ubuntu-latest
     steps:
         - run: node -v
         - run: npm -v
