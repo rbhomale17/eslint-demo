@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx eslint index.js --fix",
+    "test": "npx eslint index.js",
     "start": "node index.js"
   },
   "keywords": [],
