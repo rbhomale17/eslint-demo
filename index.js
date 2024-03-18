@@ -8,4 +8,8 @@ function str3 (str) {
   console.log(str.length, str)
 }
 
+function str4 (str) {
+  console.log(str.length, str)
+}
+
 str3("jkahdkah")
